@@ -1,0 +1,30 @@
+public with sharing class WeektwoHomework{
+public static void primitives(){
+        //You do this part!
+
+        //1.  Declare three primitives variables, an Integer, a String and a Decimal
+
+        Integer ii;
+        String abi;
+        Decimal pi;
+        
+        //2.  Assign values to your three new variables
+
+        ii = 3;
+        abi = 'Salesforce is my happy place';
+        pi = 3.14;
+        
+        //3.  Print out your variables to the debug log
+
+        System.debug('Result' + ii);
+        System.debug('Result' + abi);
+        System.debug('Result' + pi);  
+        
+        //4.  Declare an integer variable and assign a value in the same line
+        
+        Integer iii = 4;
+        
+        //5.  Print out your integer to the debug log
+        
+        System.debug('Result' + iii);
+    }}
